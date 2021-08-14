@@ -1,1 +1,1 @@
-i am sherif ad this is my first commit.
+i am sherif and this is my first commit.
