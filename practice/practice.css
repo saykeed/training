@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 25%;
+    height: 100%;
+    overflow: auto;
+    background-color: green;
+    border: 1px solid green;
+    position: fixed;
+}
+
+a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+
+a:hover{
+    background-color: white;
+    color: green;
+    font-weight: bolder;
+}
+
+a.active{
+    background-color: red;
+    color: white;
+}
+
+#maincol{
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+}
