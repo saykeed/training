@@ -1,17 +1,172 @@
-ul{
-    list-style-type: none;
-    margin: 0px auto;
+
+
+*{
     padding: 0px;
-    width: 700px;
-    background-color: rgb(8, 41, 8);
-    position: fixed;
-    bottom: 0;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(105, 145, 77);
+}
+
+#wrapper{
+    background-color: white;
+    height: 2000px;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 5px 20px;
+    
+}
+
+.webheadname{
+    border: 2px solid red;
+    margin-bottom: 15px;
+}
+
+
+
+ul{
+    background-color: white;
+    
+    box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.2);
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    
 }
 
 li{
-    display: inline-block;
+    float: left;
+    
+}
 
+li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 30px;
+    color: green;
+    border-right: 1px solid lightgray;
+} 
+    
+
+li a:hover{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+#headslide{
+    border: 2px dotted red;
+    margin: 10px auto;
+    height: 200px;
+}
+
+#news-slide{
+    margin-top: 30px;
+    border-top: 1px solid rgb(199, 196, 196);
+    border-bottom: 1px solid rgb(199, 196, 196);
+    padding: 12px 0px;
+}
+
+#covidbutton{
+    margin: 3px 0px;
+    float: right;
+    background-color: blue;
+    padding: 5px 10px;
+}
+
+
+#newsbox{
+    margin: 5px auto;
+    clear: both;
+    overflow: hidden;
+}
+
+#box1{
+    float: left;
+    height: 200px;
+    border: 1px solid lightgrey;
+    max-width: 480px;
+    margin-bottom: 15px;
+    background-color: rgb(238, 238, 238);
+    color: black;
+}
+
+#box2{
+    float: right;
+    height: 200px;
+    border: 1px solid lightgrey;
+    max-width: 480px;
+    margin-bottom: 15px;
+    background-color: lightgray;
+    color: black;
+}
+
+h3.newsbox{
+    background-color: green;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+p.newspara{
+    margin: 10px;
+    text-align: justify;
 }
 
 
 
+#parabox{
+    border: 1px solid lightgrey;
+    font-size: 15px;
+    padding: 5px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+a.readmore{
+    text-decoration: none;
+    color: green;
+}
+
+
+.dropbtn{
+
+}
+
+li.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.drops{
+    display: none;
+    box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background-color: white;
+    min-width: 150px;
+}
+
+.drops a{
+    color: green;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.drops a:hover{
+    background-color: green;
+    color: white;
+    
+}
+
+li.dropdown:hover .drops{
+    display: block;
+}
+
+li.dropdown:hover .dropbtn{
+    background-color: grey;
+}
