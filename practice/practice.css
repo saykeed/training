@@ -56,3 +56,30 @@ li.dropdown{
 .dropdown:hover .drops{
     display: block;
 }
+
+
+/* this is the style for the image gallery*/
+
+div.gallery{
+    margin: 10px;
+    border: 1px solid green;
+    float: left;
+    width: 180px;
+    
+}
+
+div.gallery:hover{
+    border: 1px solid red;
+}
+
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+
+div.desc{
+    padding: 14px;
+    text-align: center;
+}
+
