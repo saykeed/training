@@ -16,8 +16,15 @@ input[type=text], select{
     margin: 10px 0;
     padding: 12px 20px;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: none;
+    border-bottom: 1px solid #ccc;
     border-radius: 5px;
+    outline: none;
+}
+
+input[type=text]:focus{
+    background-color: lightyellow;
+    border-bottom: 2px solid green;
 }
 
 input[type=submit]{
