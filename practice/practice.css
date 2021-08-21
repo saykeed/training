@@ -12,32 +12,23 @@ div{
 
 input[type=text], select{
     box-sizing: border-box;
-    width: 100%;
+    width: 150px;
     margin: 10px 0;
     padding: 12px 20px;
     display: inline-block;
     border: none;
-    border-bottom: 1px solid #ccc;
+    border: 1px solid #ccc;
     border-radius: 5px;
     outline: none;
+    background-image: url("search.png");
+    background-size: 30px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    transition: width 2s ease-in-out;
 }
 
 input[type=text]:focus{
-    background-color: lightyellow;
-    border-bottom: 2px solid green;
-}
-
-input[type=submit]{
-    width: 50%;
-    background-color: red;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-input[type=submit]:hover{
-    background-color: green;
+    width: 100%;
+    
 }
