@@ -1,34 +1,34 @@
-body{
-    font-family: Cambria;
-}
 
-div{
-    max-width: 400px;
-    border-radius: 5px;
-    padding: 20px;
-    background-color: rgb(212, 223, 210);
-    margin: 20px auto;
-}
-
-input[type=text], select{
+*{
     box-sizing: border-box;
-    width: 150px;
-    margin: 10px 0;
-    padding: 12px 20px;
-    display: inline-block;
-    border: none;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-    background-image: url("search.png");
-    background-size: 30px;
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    padding-left: 40px;
-    transition: width 2s ease-in-out;
 }
 
-input[type=text]:focus{
-    width: 100%;
-    
+body{
+    margin: 0;
+    padding: 20px;
+}
+
+#header{
+    background-color: rgb(235, 152, 44);
+    padding: 10px;
+    text-align: center;
+}
+
+
+.col{
+    float: left;
+    width: 33.3%;
+    padding: 15px;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    .col{
+        width: 100%;
+    }
 }
