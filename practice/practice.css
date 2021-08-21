@@ -1,34 +1,14 @@
-
-*{
-    box-sizing: border-box;
-}
-
-body{
-    margin: 0;
-    padding: 20px;
-}
-
-#header{
-    background-color: rgb(235, 152, 44);
+#ox{
+    border: 1px solid red;
+    width: 500px;
+    margin: auto;
+    background-color: yellow;
+    background-clip: content-box;
     padding: 10px;
-    text-align: center;
 }
 
-
-.col{
-    float: left;
-    width: 33.3%;
-    padding: 15px;
-}
-
-.row:after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-@media screen and (max-width:600px) {
-    .col{
-        width: 100%;
-    }
+#grad{
+    height: 200px;
+    background-image: repeating-linear-gradient
+    (red, yellow 10%, blue 20%);
 }
