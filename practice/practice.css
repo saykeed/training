@@ -6,9 +6,3 @@
     background-clip: content-box;
     padding: 10px;
 }
-
-#grad{
-    height: 200px;
-    background-image: repeating-linear-gradient
-    (red, yellow 10%, blue 20%);
-}
