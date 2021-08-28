@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap practice</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="bootstrap.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Frequently asked Question</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam molestiae 
+                sed amet delectus. Temporibus in, voluptate error dolorem odio sed alias a
+                b assumenda tempore omnis sit accusantium autem vitae sint.</p>
+            
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#one">
+                                open item 1
+                            </a>
+                        </div>
+
+                        <div id="one" class="collapse show" data-parent="#accordion">
+                            <div class="card-body">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Volu
+                                ptas mollitia eligendi voluptatibus asperiores libero, dolor 
+                                atque doloremque eveniet impedit dolorum ea reiciendis ipsam? 
+                                Reprehenderit voluptates reiciendis, laboriosam incidunt alias minima!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed card-link" data-toggle="collapse" href="#two">
+                                open item 2
+                            </a>
+                        </div>
+
+                        <div id="two" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Volu
+                                ptas mollitia eligendi voluptatibus asperiores libero, dolor 
+                                atque doloremque eveniet impedit dolorum ea reiciendis ipsam? 
+                                Reprehenderit voluptates reiciendis, laboriosam incidunt alias minima!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed card-link" data-toggle="collapse" href="#three">
+                                open item 3
+                            </a>
+                        </div>
+
+                        <div id="three" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Volu
+                                ptas mollitia eligendi voluptatibus asperiores libero, dolor 
+                                atque doloremque eveniet impedit dolorum ea reiciendis ipsam? 
+                                Reprehenderit voluptates reiciendis, laboriosam incidunt alias minima!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+
+    </body>
+
+    
+</html>
