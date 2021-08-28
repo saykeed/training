@@ -14,46 +14,44 @@
     </head>
 
     <body>
-        
-                <nav class="navbar navbar-expand-md bg-success navbar-dark">
-
-                    <a class="navbar-brand" href="#">
-                        <img src="images/nimclogo.jpg" style="width: 80px;">
-                    </a>
-
-                    <!--the toggler-->
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapsenav">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="collapsenav">
-                    <ul class="navbar-nav ">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link 1</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link 2</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="nbdrop" data-toggle="dropdown">drop 3</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">drop 1</a>
-                                <a class="dropdown-item" href="#">drop 2</a>
-                                <a class="dropdown-item" href="#">drop 3</a>
-                            </div>
-                        </li>
-                    </ul>
-                    </div>
-                    
-                </nav>
    
-                <div class="container-fluid bg-danger">
-                    <h1>Nav</h1>
+                <div class="container-fluid">
+                    <h1>Stacked form</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam molestiae 
                         sed amet delectus. Temporibus in, voluptate error dolorem odio sed alias a
                         b assumenda tempore omnis sit accusantium autem vitae sint.</p>
+
+                        <form action="/action_page.php" class="was-validated" >
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter mail" name="email" required>
+                                <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback">U no dey see?? oga put ur email jor..</div>
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="pwd">Password</label>
+                                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" required>
+                                <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback">If u like, no put password oo..</div>
+                            </div>
+
+                            <div class="form-group form-check">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" name="remember" required> I agree to the <b> <i>Terms and Conditions</i></b>
+                                    <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback">U agree? abi u no agree?..</div>
+                                </label>
+                                
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Sign Up</button>
+                        </form>
                 </div>
-        
+
+               
+                
 
     </body>
 
