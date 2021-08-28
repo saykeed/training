@@ -14,56 +14,46 @@
     </head>
 
     <body>
-        <div class="container">
-            <h1>Nav</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam molestiae 
-                sed amet delectus. Temporibus in, voluptate error dolorem odio sed alias a
-                b assumenda tempore omnis sit accusantium autem vitae sint.</p>
+        
+                <nav class="navbar navbar-expand-md bg-success navbar-dark">
 
-                <!--nav tabs-->
-                 <ul class="nav justify-content-center nav-pills" role="tablist">
-                     <li class="nav-item">
-                         <a class="nav-link active" data-toggle="pill" href="#home">Home</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="pill" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="pill" href="#contact">Contact</a>
-                    </li>
-                 </ul>
+                    <a class="navbar-brand" href="#">
+                        <img src="images/nimclogo.jpg" style="width: 80px;">
+                    </a>
 
-                 <!--tab panes-->
-                 <div class="tab-content">
-                     <div id="home" class="container tab-pane active">
-                         <h2>Welcome</h2>
-                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                              Sapiente velit molestias, fugit exercitationem nesciunt 
-                              dignissimos quidem aliquid possimus repellat repudiandae 
-                              eum distinctio ratione vitae, neque hic odit sequi, 
-                              consequuntur tempora.</p>
-                     </div>
+                    <!--the toggler-->
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapsenav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                     <div id="about" class="container tab-pane fade">
-                        <h2>Wanna know more about us?</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                             Sapiente velit molestias, fugit exercitationem nesciunt 
-                             dignissimos quidem aliquid possimus repellat repudiandae 
-                             eum distinctio ratione vitae, neque hic odit sequi, 
-                             consequuntur tempora.</p>
+                    <div class="collapse navbar-collapse" id="collapsenav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 2</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="nbdrop" data-toggle="dropdown">drop 3</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">drop 1</a>
+                                <a class="dropdown-item" href="#">drop 2</a>
+                                <a class="dropdown-item" href="#">drop 3</a>
+                            </div>
+                        </li>
+                    </ul>
                     </div>
-
-                    <div id="contact" class="container tab-pane fade">
-                        <h2>You are contact us with any of the options below</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                             Sapiente velit molestias, fugit exercitationem nesciunt 
-                             dignissimos quidem aliquid possimus repellat repudiandae 
-                             eum distinctio ratione vitae, neque hic odit sequi, 
-                             consequuntur tempora.</p>
-                    </div>
-                 </div>
-            
-        </div>
+                    
+                </nav>
+   
+                <div class="container-fluid bg-danger">
+                    <h1>Nav</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam molestiae 
+                        sed amet delectus. Temporibus in, voluptate error dolorem odio sed alias a
+                        b assumenda tempore omnis sit accusantium autem vitae sint.</p>
+                </div>
+        
 
     </body>
 
